@@ -12,12 +12,6 @@ class Book {
   public getAuthor(): string {
     return this.author;
   }
-  public setTitle(title: string): void {
-    this.title = title;
-  }
-  public setAuthor(author: string): void {
-    this.author = author;
-  }
 }
 
 class Library {

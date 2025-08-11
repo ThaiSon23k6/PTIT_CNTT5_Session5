@@ -13,12 +13,6 @@ class Book {
     getAuthor() {
         return this.author;
     }
-    setTitle(title) {
-        this.title = title;
-    }
-    setAuthor(author) {
-        this.author = author;
-    }
 }
 class Library {
     books;
